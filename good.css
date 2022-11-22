@@ -1,0 +1,55 @@
+#top-bar {
+  background-color: #1e2022;
+  padding: 20px;
+}
+
+#big-bar {
+  background-color: #52616b;
+  padding: 20px;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media .content {
+  flex: 1;
+  padding: 10px;
+}
+
+#page {
+  display: flex;
+}
+
+#sideBar {
+  width: 25%;
+  background: #f0f5f9;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+#content {
+  background: #c9d6df;
+  width: 75%;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.sideBarContent {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 2em;
+}
